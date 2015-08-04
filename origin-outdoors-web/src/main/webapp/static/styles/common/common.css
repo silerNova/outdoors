@@ -1,0 +1,59 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	font-size:12px
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	color: #13334d;
+	font-family: tahoma, arial, "Hiragino Sans GB", "ËÎÌו", sans-serif;
+	font: 12px/1.5 tahoma, arial, "ËÎÌו"
+}
+
+body div {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 100%; 
+}
+
+img {
+	border:0
+}
+
+a {
+    text-decoration: none;
+	color: #333
+}
+
+a:hover {
+	color: #FF8400
+}
+
+ul {
+    list-style-type: none;
+	list-style-image: none;
+	font-size: 100%;
+	padding: 0;
+	border: 0;
+	margin: 0
+}
+
+li {
+    border: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+}
+
+span{
+    font-size: 100%;
+	border: 0px;
+	padding: 0px;
+	margin: 0px
+}

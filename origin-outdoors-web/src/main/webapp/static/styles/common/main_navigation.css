@@ -1,0 +1,183 @@
+.nav {
+    min-width: 100%;
+    border-bottom: #FF8000 3px solid;
+	background: #fff;
+	border-left: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	font-size: 100%;
+	border-top: 0px;
+	border-right: 0px;
+	display: block;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-right:0px
+}
+
+.nav .nav-in {
+	width: 1200px;
+	padding-left: 0px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+/*
+  主导航菜单
+*/
+.nav-list {
+    min-width: 990px;
+    z-index: 9999;
+	position: relative;
+	padding-bottom: 4px;
+	line-height: 26px;
+	zoom: 1;
+}
+
+.nav-list:after {
+    display: block;
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+	overflow: hidden;
+	content: ""
+}
+
+.nav-item {
+    float: left;
+	height: 25px
+}
+
+.nav-item .nav-on {
+    color: #5bbdff;
+	text-decoration: none;
+	background-position: left 100%
+}
+
+.nav-item .nav_on .nav-item-in{
+    position: relative;
+	zoom: 1;
+	float: left;
+	height: 33px;
+	_height: 26px
+}
+
+.tit {
+    font-family: "Microsoft YaHei", simsun;
+	float: left;
+	font-size: 16px;
+	cursor: pointer;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 0px
+}
+
+.has-trans {
+    transitition: all .3s ease-out
+}
+
+.header-v{
+    border-left: #e7eaed 1px solid;
+	margin-top: 7px;
+	width: 0px;
+	float: left;
+	height: 14px;
+	line-height: 26px;
+	overflow: hidden
+}
+
+/*子栏目*/
+.menu-sub {
+    width: 1200px;
+	position: absolute;
+	bottom: -35px;
+	display: none;
+	background: #e4f4ff;
+	height: 32px;
+	left: 0px;
+	opacity: 0
+}
+
+.nav-sub-list {
+    line-height: 32px;
+	zoom: 1
+}
+
+.nav-sub-list:after {
+    display: block;
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+	overflow: hidden;
+	content: ""
+}
+
+.nav-sub-item{
+    line-height: 32px;
+	float: left;
+	positition: absolute;
+	zoom: 1
+}
+
+.nav-sub-item:after {
+    margin-top: 9px;
+	width: 1px;
+	display: block;
+	background: #88afc8;
+	float: left;
+	height: 14px;
+	overflow: hidden;
+	content: ""
+}
+
+.nav-sub-item a {
+    display: block;
+    padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	float: left
+}
+
+.padding-left-0 {
+    padding-left: 0px
+}
+
+.padding-left-75 {
+    padding-left: 75px
+}
+
+.padding-left-180 {
+    padding-left: 180px
+}
+
+.padding-left-285 {
+    padding-left: 285px
+}
+
+.padding-left-390 {
+    padding-left: 390px
+}
+
+.padding-left-495 {
+    padding-left: 495px
+}
+
+.padding-left-600 {
+    padding-left: 600px
+}
+
+.padding-left-705 {
+    padding-left: 705px
+}
+
+.padding-left-810 {
+    padding-left: 810px
+}
+
+.padding-left-915 {
+    padding-left: 915px
+}
