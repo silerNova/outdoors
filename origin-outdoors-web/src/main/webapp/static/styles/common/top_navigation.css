@@ -62,7 +62,7 @@
 	padding: 13px 20px
 }
 
-.topNav dd h3 a i {
+/* .topNav dd h3 a i {
 	display: inline-block;
 	width: 8px;
 	height: 5px;
@@ -72,11 +72,12 @@
 	font-size: 12px;
 	line-height: 13px;
 	background: url(../../images/common/icon.png) 0 -61px no-repeat
-}
+} */
 
 .topNav dd h3 a:hover,.topNav dd.on h3 a {
 	background: #EDEEF0;
-	color: #FF8400
+	color: #FF8400;
+	text-decoration:none;
 }
 
 .topNav .welcome {
