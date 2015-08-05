@@ -24,7 +24,7 @@
 	border: 0px;
 	margin: 0px 0px 0px 20px;
 	padding: 0px;
-	background: url(http://localhost:8080/origin/common/images/origin.png) no-repeat;
+	background: url(../../images/common/origin.png) no-repeat;
 	display: block;
 }
 
@@ -35,7 +35,7 @@
 	text-indent: -10000px;
 }
 
-/* DIVCSS5ÉèÖÃtext-indentÒş²ØÎÄ×Ö£¬ display:block; ÈÃaĞÎ³É¿éÒÔ±ãÍ¬Ê±ÉèÖÃ¿í¶È¸ß¶ÈÉúĞ§ */
+/* DIVCSS5ï¿½ï¿½ï¿½ï¿½text-indentï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ display:block; ï¿½ï¿½aï¿½Î³É¿ï¿½ï¿½Ô±ï¿½Í¬Ê±ï¿½ï¿½ï¿½Ã¿ï¿½È¸ß¶ï¿½ï¿½ï¿½Ğ§ */
 .right-ad {
 	float:right;
 }

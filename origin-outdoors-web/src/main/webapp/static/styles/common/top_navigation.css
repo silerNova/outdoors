@@ -71,7 +71,7 @@
 	vertical-align: middle;
 	font-size: 12px;
 	line-height: 13px;
-	background: url(../images/icon.png) 0 -61px no-repeat
+	background: url(../../images/common/icon.png) 0 -61px no-repeat
 }
 
 .topNav dd h3 a:hover,.topNav dd.on h3 a {
