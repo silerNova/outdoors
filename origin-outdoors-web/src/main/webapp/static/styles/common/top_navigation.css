@@ -81,17 +81,17 @@
 }
 
 .topNav .welcome {
-	padding-right: 15px;
-	color: #FF8400
+	color: #FF8400;
+	font-weight: bold;
 }
 
 .topNav .welcome a {
-	color: #FF8400
+	color: #FF8400;
 }
 
 .topNav .welcome a:hover {
-	color: #000000;
-	text-decoration: underline;
+	color: #134ba0;
+	text-decoration: none;
 }
 
 .topNav dd ul {
