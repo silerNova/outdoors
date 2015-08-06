@@ -29,10 +29,21 @@
 				</dd>
 			</dl>
 			<dl class="tnRight">
-				<dd class="welcome">
+				<!-- <dd class="welcome"> -->
 					<!-- 欢迎您， <a target="_blank" href="#" title="用户名">用户名</a> <a href="#">退出</a> -->
-					<a id="login" class="thickbox" href="#" title="登录">登&nbsp;录</a>
+					<!-- <a id="login" class="thickbox" href="#" title="登录">登&nbsp;录</a>
 					&nbsp;|&nbsp; <a target="_blank" href="#" title="注册">注&nbsp;册</a>
+				</dd> -->
+				<dd class="welcome">
+				   <h3>
+					<a id="login" class="thickbox" href="#" title="登录">登&nbsp;录</a>
+				   </h3>
+				</dd>
+				<dd>&nbsp;|&nbsp;</dd>
+				<dd class="welcome" style="margin-right:10px;">
+				   <h3>
+					 <a target="_blank" href="#" title="注册">注&nbsp;册</a>
+				   </h3>
 				</dd>
 				<dd>
 					<h3>
