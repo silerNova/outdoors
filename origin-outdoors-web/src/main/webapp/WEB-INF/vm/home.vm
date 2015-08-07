@@ -238,9 +238,32 @@
 			</ul>
 		</div>
 	</div>
+	<!-- 图片轮播 -->
+	<div class="show_box">
+	<ul class="pic_list">
+		<li style="display:block"><a href="#" title=""><img alt="1" src="../../static/images/import/3.jpg"/></a></li>
+		<li><a href="#" title=""><img alt="2" src="../../static/images/import/3.jpg"/></a></li>
+		<li><a href="#" title=""><img alt="3" src="../../static/images/import/3.jpg"/></a></li>
+		<li><a href="#" title=""><img alt="4" src="../../static/images/import/3.jpg"/></a></li>
+		<li><a href="#" title=""><img alt="5" src="../../static/images/import/3.jpg"/></a></li>
+	</ul>
+	<div class="title_nav">
+		<a href="#" class="select">户外拓展1</a>
+		<a href="#">户外拓展2</a>
+		<a href="#">户外拓展3</a>
+		<a href="#">户外拓展4</a>
+		<a href="#">户外拓展5</a>
+	</div>
+    </div>
+    <!-- 面包屑 -->
 </body>
 </html>
 <script type="text/javascript">
+    <!-- roller -->
+    $(function(){
+	    $(".show_box").turnPic();
+    });
+    
 	jQuery(".topNav").slide({
 		type : "menu",
 		titCell : "dd",
