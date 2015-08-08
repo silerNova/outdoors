@@ -255,15 +255,150 @@
 		<a href="#">户外拓展5</a>
 	</div>
     </div>
-    <!-- 面包屑 -->
+    
+    <div style="width:1200px;margin:auto;">
+	    <!-- 面包屑1 -->
+	    <div class="bread">
+	        <a href="#@"><span class="bread-tit new" >课程式培训</span></a>
+	        <a href="#@"><span class="bread-tit" >拓展式培训</span></a>
+	    </div>
+	    <!-- 展示内容 -->
+	    <!-- tab1 -->
+	    <div id="" class="step" style="margin:auto;width:1200px;height:250px;">
+	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	            <a><span style="font-size: 15px;">企业内训</span></a>
+	            <ul>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
+	            </ul>
+	        </div>
+	        <div class="section">
+				<ul>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_1.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程1</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_2.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程2</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_3.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程3</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_4.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程4</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_5.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程5</h3></a> </div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_6.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程6</h3></a></div>
+					</li>
+			        <li>
+						<div class="photo"><img src="../../static/images/import/peixun_7.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程7</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_8.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程8</h3></a></div>
+				</ul>
+			</div>
+	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	            <a><span style="font-size: 15px;">主题课程</span></a>
+	            <ul>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
+	            </ul>
+	        </div>
+	    </div>
+	    
+	    <!-- tab2 -->
+	    <div id="" class="step" style="display:none;margin:auto;width:1200px;">
+	        2222
+	    </div>
+    </div>
+    
+    <div style="width:1200px;margin:auto;position:relative;">
+	    <!-- 面包屑2 --> 
+	    <div class="bread">
+	        <a href="#@"><span class="bread-tit new" >拓展训练</span></a>
+	        <!-- <a href="#@"><span class="bread-tit" >拓展式培训</span></a> -->
+	    </div>
+	    <!-- 展示内容 -->
+	    <div id="" class="step" style="margin:auto;width:1200px;height:250px;">
+	        <div style="font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	            <a><span style="font-size: 15px;">拓展项目</span></a>
+	            <ul>
+	                <li style="float:left;"><a><span style="margin-left:20px;">场地拓展项目</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">水上拓展项目</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">野外拓展项目</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">室内拓展项目</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
+	            </ul>
+	        </div>
+	        <div style="position:relative;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	            <a><span style="font-size: 15px;">拓展主题</span></a>
+	            <ul>
+	                <li style="float:left;"><a><span style="margin-left:20px;">情景拓展</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">军事拓展</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">旅游拓展</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">定向拓展</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
+	            </ul>
+	        </div>
+	    </div>
+	    <div id="" class="step" style="display:none;margin:auto;width:1200px;">
+	        2222
+	    </div>
+    </div>
 </body>
 </html>
 <script type="text/javascript">
-    <!-- roller -->
+    <!-- roller jquery 1.9.1 -->
     $(function(){
+        // 加载培训图片
+		$(".section ul li .rsp").hide();
+		$(".section	 ul li").hover(function(){
+			$(this).find(".rsp").stop().fadeTo(500, 0.5);
+			$(this).find(".text").stop().animate({left:'0'}, {duration: 500});
+		}, function(){
+			$(this).find(".rsp").stop().fadeTo(500,0);
+			// 滑动消失, 没有这一句则立刻消失
+		    $(this).find(".text").stop().animate({left:'318'}, {duration: "fast"});
+			$(this).find(".text").animate({left:'-318'}, {duration: 0});
+		});
+		
 	    $(".show_box").turnPic();
+	    
+	    //切换tab
+		$('.bread a').click(function(){
+			var i = $(this).index();
+			$('.bread a span').removeClass('new').eq(i).addClass('new');
+			$('.step').fadeOut(300).eq(i).fadeIn(500);
+		});
     });
     
+    <!-- topNav jquery 1.8.3 -->
 	jQuery(".topNav").slide({
 		type : "menu",
 		titCell : "dd",

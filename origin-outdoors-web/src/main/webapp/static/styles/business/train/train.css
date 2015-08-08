@@ -1,0 +1,46 @@
+.section{
+	float: right;
+	display: block;
+	width: 1000px;
+	height: 248px;
+	margin: 0px 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.section ul li{
+	float: left;
+	margin: 0 0px 8px 10px;
+	width: 240px;
+	height: 120px;
+	overflow: hidden;
+	position: relative;
+}
+
+.section .rsp{
+	width:240px;
+	height: 150px;
+	position: absolute;
+	background: #000;
+	top: 0px;
+	left: 0px;
+}
+
+.section .text{
+	position: absolute;
+  left: -250px;
+	top: 0px;
+	opacity: 0.8;
+}
+
+.section .text h3{
+	width: 240px;
+	margin-top: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #000;
+	background: #fff;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
