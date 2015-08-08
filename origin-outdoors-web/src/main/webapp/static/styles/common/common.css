@@ -11,8 +11,8 @@ body{
 	padding: 0;
 	background-color: #FFFFFF;
 	color: #13334d;
-	font-family: tahoma, arial, "Hiragino Sans GB", "ËÎÌå", sans-serif;
-	font: 12px/1.5 tahoma, arial, "ËÎÌå"
+	font-family: tahoma, arial, "Hiragino Sans GB", "ï¿½ï¿½ï¿½ï¿½", sans-serif;
+	font: 12px/1.5 tahoma, arial, "ï¿½ï¿½ï¿½ï¿½"
 }
 
 body div {
@@ -32,7 +32,8 @@ a {
 }
 
 a:hover {
-	color: #FF8400
+	color: #FF8400;
+	text-decoration: none;
 }
 
 ul {

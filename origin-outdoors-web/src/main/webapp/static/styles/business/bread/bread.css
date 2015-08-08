@@ -1,0 +1,52 @@
+/*面包屑*/
+.bread
+{
+  position: relative;
+  z-index: -1;
+  width: 1200px;
+  height: 31px;
+  line-height: 50px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei", simsun;
+  color: #ff8500;
+  border-bottom: #ff8500 2px solid;
+  background: #fff;
+  margin: auto;
+}
+
+.bread:after
+{
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: '';
+}
+
+.bread
+{
+  zoom: 1;
+}
+
+.bread a{
+  font-size: 16px;
+  color: #333;
+  text-decoration: none; 
+}
+
+.bread a:visited{
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.bread .bread-tit
+{
+  float: left;
+  padding: 0 20px;
+  line-height: 30px;
+}
+
+.bread .new{
+      border-bottom: #ff8000 1px solid;
+}
