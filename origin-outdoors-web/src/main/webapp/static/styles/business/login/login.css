@@ -45,7 +45,7 @@ em {
 	_background: url(../../../images/login/login-ico-ie6.png) no-repeat;
 }
 
-a {
+/* a {
 	color: #134ba0;
 	text-decoration: none;
 }
@@ -53,7 +53,8 @@ a {
 a:hover {
 	color: #c00;
 	text-decoration: underline;
-}
+	text-decoration: none;
+} */
 
 .wrapper {
 	position: fixed;

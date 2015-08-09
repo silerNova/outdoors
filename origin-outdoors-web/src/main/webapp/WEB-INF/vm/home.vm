@@ -345,8 +345,8 @@
 	        <!-- <a href="#@"><span class="bread-tit" >拓展式培训</span></a> -->
 	    </div>
 	    <!-- 展示内容 -->
-	    <div id="" class="step" style="margin:auto;width:1200px;height:250px;">
-	        <div style="font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	    <div id="" class="step" style="margin:auto;width:1200px;height:380px;">
+	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
 	            <a><span style="font-size: 15px;">拓展项目</span></a>
 	            <ul>
 	                <li style="float:left;"><a><span style="margin-left:20px;">场地拓展项目</span></a></li>
@@ -356,19 +356,57 @@
 	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
 	            </ul>
 	        </div>
-	        <div style="position:relative;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	        <!-- 右侧展示div -->
+	        <div class="brandbox">
+				<ul class="ui_brands">
+					<li class="brand_item">
+						<a class="brand_name" href="#">
+							<img src="../../static/images/import/pic_jy_name.gif">
+						<span>测试图片布局1</span>
+						</a>
+					</li>
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/pic_sx_name.gif"><span>测试图片布局2</span></a>
+					</li>
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/pic_oly_name.gif"><span>测试图片布局3</span></a>
+					</li>
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/pic_jn_name.gif"><span>测试图片布局4</span></a>
+					</li>
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/pic_jn_name.gif"><span>测试图片布局5</span></a>
+					</li>
+				</ul>
+				<ul class="ui_brands">
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/pic_bl_name.gif"><span>测试图片布局6</span></a>
+					</li>
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/pic_shlsq_name_1.jpg"><span>测试图片布局7</span></a>
+					</li>
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/hp_logo_3.jpg"><span>测试图片布局8</span></a>
+					</li>
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/pic_dmz_name.gif"><span>测试图片布局9</span></a>
+					</li>
+					<li class="brand_item">
+						<a class="brand_name" href="#"><img src="../../static/images/import/pic_dmz_name.gif"><span>测试图片布局10</span></a>
+					</li>
+				</ul>
+			</div>
+			<!-- 导航展示 -->
+	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
 	            <a><span style="font-size: 15px;">拓展主题</span></a>
 	            <ul>
-	                <li style="float:left;"><a><span style="margin-left:20px;">情景拓展</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">军事拓展</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">旅游拓展</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">定向拓展</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">情景拓展主题</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">军事拓展主题</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">旅游拓展主题</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">定向拓展主题</span></a></li>
 	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
 	            </ul>
 	        </div>
-	    </div>
-	    <div id="" class="step" style="display:none;margin:auto;width:1200px;">
-	        2222
 	    </div>
     </div>
 </body>
@@ -388,6 +426,7 @@
 			$(this).find(".text").animate({left:'-318'}, {duration: 0});
 		});
 		
+		// 图片轮转
 	    $(".show_box").turnPic();
 	    
 	    //切换tab
@@ -396,6 +435,9 @@
 			$('.bread a span').removeClass('new').eq(i).addClass('new');
 			$('.step').fadeOut(300).eq(i).fadeIn(500);
 		});
+		
+		// 拓展训练图片hover事件方法
+		brandPicTurn();
     });
     
     <!-- topNav jquery 1.8.3 -->
@@ -443,5 +485,17 @@
 				document.getElementById("mynav" + i).className = "";
 			}
 		}
+	}
+	
+	/* 拓展训练展示方法  */
+	function brandPicTurn(){
+		$(".brand_item").hover(
+			function(){
+				$(this).children(".brand_name").addClass("brand_change");
+			}
+			, function(){
+				$(this).children(".brand_name").removeClass("brand_change");
+			}
+		);
 	}
 </script>
