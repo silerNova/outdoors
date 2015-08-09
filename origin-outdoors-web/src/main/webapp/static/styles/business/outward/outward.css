@@ -1,0 +1,56 @@
+/* brandbox */
+.brandbox{
+	float: right;
+	width: 1000px;
+	margin: 5px auto;
+	overflow: hidden;
+}
+
+.brandbox ul li{
+	float: left;
+}
+
+.brandbox ul li.brand_item{
+	width: 200px;
+	height: 182px;
+}
+
+.brand_item a{
+	display: block;
+	margin: auto;
+	width: 168px;
+	height: 169px;
+}
+
+.brand_item a:hover{
+	text-decoration: none;
+}
+
+.brand_item a.brand_name{
+	border: #b69d6b 1px solid;
+	overflow: hidden;
+}
+
+.brand_item a span{
+	display: block;
+	margin-left: 1px;
+	width: 166px;
+	padding-top: 6px;
+	height: 24px;
+	text-align: center;
+	overflow: hidden;
+}
+
+a.brand_name span{
+	color: #7f5400;
+	background-color :#e0dbcd;
+}
+
+.brand_item a.brand_change{
+	border: #daa900 1px solid;
+}
+
+a.brand_change span{
+	color: #fff;
+	background-color: #8d5303;
+}

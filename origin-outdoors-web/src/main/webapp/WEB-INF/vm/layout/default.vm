@@ -21,6 +21,7 @@
   <link rel="stylesheet" type="text/css" href="static/styles/business/roller/roller.css"></link>
   <link rel="stylesheet" type="text/css" href="static/styles/business/bread/bread.css"></link>
   <link rel="stylesheet" type="text/css" href="static/styles/business/train/train.css"></link>
+  <link rel="stylesheet" type="text/css" href="static/styles/business/outward/outward.css"></link>
 </head>
 <body>
 <div id="container" class="w-frame clearfix">

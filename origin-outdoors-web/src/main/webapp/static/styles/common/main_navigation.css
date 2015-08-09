@@ -24,9 +24,6 @@
 	margin-right: auto
 }
 
-/*
-  主导航菜单
-*/
 .nav-list {
     min-width: 990px;
     z-index: 9999;
@@ -89,7 +86,6 @@
 	overflow: hidden
 }
 
-/*子栏目*/
 .menu-sub {
     width: 1200px;
 	position: absolute;
