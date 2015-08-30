@@ -24,7 +24,7 @@
 	margin-right: auto
 }
 
-.nav-list {
+.nav .nav-in .nav-list {
     min-width: 990px;
     z-index: 9999;
 	position: relative;
@@ -33,7 +33,7 @@
 	zoom: 1;
 }
 
-.nav-list:after {
+.nav .nav-in .nav-list:after {
     display: block;
 	height: 0px;
 	visibility: hidden;
@@ -42,18 +42,18 @@
 	content: ""
 }
 
-.nav-item {
+.nav .nav-in .nav-list .nav-item {
     float: left;
 	height: 25px
 }
 
-.nav-item .nav-on {
+.nav .nav-in .nav-list .nav-item .nav-on {
     color: #5bbdff;
 	text-decoration: none;
 	background-position: left 100%
 }
 
-.nav-item .nav_on .nav-item-in{
+.nav .nav-in .nav-list .nav-item .nav_on .nav-item-in {
     position: relative;
 	zoom: 1;
 	float: left;
@@ -61,7 +61,7 @@
 	_height: 26px
 }
 
-.tit {
+.nav .nav-in .nav-list .nav-item .nav-item-in .tit {
     font-family: "Microsoft YaHei", simsun;
 	float: left;
 	font-size: 16px;
@@ -83,18 +83,19 @@
 	float: left;
 	height: 14px;
 	line-height: 26px;
-	overflow: hidden
+	overflow: hidden;
 }
 
-.menu-sub {
+.nav .nav-in .nav-list .nav-item .menu-sub {
     width: 1200px;
 	position: absolute;
-	bottom: -35px;
+	bottom: -35px; 
 	display: none;
 	background: #e4f4ff;
 	height: 32px;
 	left: 0px;
-	opacity: 0
+	filter:alpha(opacity=70);
+	opacity: 0.7;
 }
 
 .nav-sub-list {
@@ -108,7 +109,7 @@
 	visibility: hidden;
 	clear: both;
 	overflow: hidden;
-	content: ""
+	content: "";
 }
 
 .nav-sub-item{

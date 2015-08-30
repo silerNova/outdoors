@@ -1,0 +1,311 @@
+@charset "utf-8";
+.boxwrap{
+	width: 1200px;
+	height: auto;
+	text-align: left;
+	padding-left: 0px;
+	margin: 0px 0px;
+	border: #e2e2e2 0px solid;
+	background-image: none;
+	background-attachment: scroll;
+	background-repeat: repeat;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: rgb(255, 255, 255);
+}
+
+.boxwrap:after {
+	height: 0px;
+	clear: both;
+	display: block;
+	visibility: hidden;
+	content: ".";
+}
+
+.boxwrap .left {
+	float: left;
+}
+
+.boxwrap .right {
+	float: right;
+}
+
+.boxwrap .index-knowledge {
+	width: 355px;
+	margin-bottom: 2px;
+}
+
+.boxwrap .index-knowledge .index-title {
+	width: 100%;
+	line-right: 38px;
+	overflow: hidden;
+}
+
+.boxwrap .index-knowledge .index-title .title {
+  position: relative;
+  z-index: 1;
+  width: 355px;
+  height: 35px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+  font-family: "Microsoft YaHei", simsun;
+  color: #ff8500;
+  border-bottom: #ff8500 2px solid;
+  background: #fff;
+  margin: 0px auto;
+  zoom: 1;
+}
+
+.boxwrap .index-knowledge .index-title .title:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: '';
+}
+
+.boxwrap .index-knowledge .index-title .title a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none; 
+}
+
+.boxwrap .index-knowledge .index-title .title a:visited {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.boxwrap .index-knowledge .index-title .title .title-tit {
+  float: left;
+  padding: 0 20px;
+  line-height: 34px;
+}
+
+.boxwrap .index-knowledge .index-title .title .new {
+      border-bottom: #ff8000 1px solid;
+}
+
+.boxwrap .index-knowledge ul li {
+	height: 25px;
+	color: #9f9f9f;
+	line-height: 25px;
+	padding-left: 10px;
+	clear: both;
+	margin-top: 5px;
+	border-bottom-color: #dcdcdc;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	background-image: url(../../../images/knowledge/point.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 10px;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+
+.boxwrap .index-knowledge ul li a {
+	width: 350px;
+	overflow: hidden;
+	padding: 0px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	border-style: none;
+	border-width: medium;
+	border-color: currentColor;
+}
+
+/* ------------------------------------------  杂谈  -------------------------------------------------------*/
+.boxwrap .index-talk {
+	width: 355px;
+	margin-right: 67.5px;
+	margin-left: 67.5px;
+	margin-bottom: 2px;
+}
+
+.boxwrap .index-talk .index-title {
+	width: 100%;
+	line-right: 38px;
+	overflow: hidden;
+}
+
+.boxwrap .index-talk .index-title .title {
+  position: relative;
+  z-index: 1;
+  width: 355px;
+  height: 35px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+  font-family: "Microsoft YaHei", simsun;
+  color: #ff8500;
+  border-bottom: #ff8500 2px solid;
+  background: #fff;
+  margin: 0px auto;
+  zoom: 1;
+}
+
+.boxwrap .index-talk .index-title .title:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: '';
+}
+
+.boxwrap .index-talk .index-title .title a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none; 
+}
+
+.boxwrap .index-talk .index-title .title a:visited {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.boxwrap .index-talk .index-title .title .title-tit {
+  float: left;
+  padding: 0 20px;
+  line-height: 34px;
+}
+
+.boxwrap .index-talk .index-title .title .new {
+      border-bottom: #ff8000 1px solid;
+}
+
+.boxwrap .index-talk ul li {
+	height: 25px;
+	color: #9f9f9f;
+	line-height: 25px;
+	padding-left: 10px;
+	clear: both;
+	margin-top: 5px;
+	border-bottom-color: #dcdcdc;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	background-image: url(../../../images/knowledge/point.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 10px;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+
+.boxwrap .index-talk ul li a {
+	width: 350px;
+	overflow: hidden;
+	padding: 0px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	border-style: none;
+	border-width: medium;
+	border-color: currentColor;
+}
+
+/* ---------------------------------   游戏    ----------------------------------------------------------*/
+.boxwrap .index-game {
+	width: 355px;
+	margin-bottom: 2px;
+}
+
+.boxwrap .index-game .index-title {
+	width: 100%;
+	line-right: 38px;
+	overflow: hidden;
+}
+
+.boxwrap .index-game .index-title .title {
+  position: relative;
+  z-index: 1;
+  width: 355px;
+  height: 35px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+  font-family: "Microsoft YaHei", simsun;
+  color: #ff8500;
+  border-bottom: #ff8500 2px solid;
+  background: #fff;
+  margin: 0px auto;
+  zoom: 1;
+}
+
+.boxwrap .index-game .index-title .title:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: '';
+}
+
+.boxwrap .index-game .index-title .title a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none; 
+}
+
+.boxwrap .index-game .index-title .title a:visited {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.boxwrap .index-game .index-title .title .title-tit {
+  float: left;
+  padding: 0 20px;
+  line-height: 34px;
+}
+
+.boxwrap .index-game .index-title .title .new {
+      border-bottom: #ff8000 1px solid;
+}
+
+.boxwrap .index-game ul li {
+	height: 25px;
+	color: #9f9f9f;
+	line-height: 25px;
+	padding-left: 10px;
+	clear: both;
+	margin-top: 5px;
+	border-bottom-color: #dcdcdc;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	background-image: url(../../../images/knowledge/point.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 10px;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+
+.boxwrap .index-game ul li a {
+	width: 350px;
+	overflow: hidden;
+	padding: 0px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	border-style: none;
+	border-width: medium;
+	border-color: currentColor;
+}

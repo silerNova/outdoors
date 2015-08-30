@@ -22,6 +22,9 @@
   <link rel="stylesheet" type="text/css" href="static/styles/business/bread/bread.css"></link>
   <link rel="stylesheet" type="text/css" href="static/styles/business/train/train.css"></link>
   <link rel="stylesheet" type="text/css" href="static/styles/business/outward/outward.css"></link>
+  <link rel="stylesheet" type="text/css" href="static/styles/business/case/case.css"></link>
+  <link rel="stylesheet" type="text/css" href="static/styles/business/knowledge/knowledge.css"></link>
+  <link rel="stylesheet" type="text/css" href="static/styles/business/footer/footer.css"></link>
 </head>
 <body>
 <div id="container" class="w-frame clearfix">

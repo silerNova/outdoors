@@ -138,42 +138,46 @@
 	<div id="nav" class="nav">
 		<div id="nav-in" class="nav-in">
 			<ul id="nav-list" class="nav-list">
-				<li class="nav-item" onmouseover="qiehuan(0)"><a class="nav_on"
-					id="mynav0" href=""> <span class="nav-item-in"> <span
+				<li class="nav-item"><a class="nav_on  menu-nav"
+					id="menu-nav" href=""> <span class="nav-item-in"> <span
 							class="tit has-trans">首&nbsp;&nbsp;页</span> </span> </a> <span
 					class="header-v"></span></li>
-				<li class="nav-item" onmouseover="javascript:qiehuan(1)"><a
-					class="nav_on" href="" id="mynav1"> <span class="nav-item-in">
-							<span class="tit has-trans">目的地</span> </span> </a> <span class="header-v"></span>
+				<li class="nav-item"><a
+					class="nav_on menu-nav" href="" id="menu-nav"> <span class="nav-item-in">
+							<span class="tit has-trans">课程式培训</span> </span> </a> <span class="header-v"></span>
 				</li>
-				<li class="nav-item" onmouseover="qiehuan(2)"><a class="nav_on"
-					href="#" id="mynav2"> <span class="nav-item-in"> <span
-							class="tit has-trans">原点活动</span> </span> </a> <span class="header-v"></span>
-					<div id="qh_con2" class="menu-sub has-trans">
-						<ul class="nav-sub-list padding-left-180" onmouseout="recover(2);">
+				<li class="nav-item">
+				    <a class="nav_on menu-nav" href="#" id="menu-nav">
+				        <span class="nav-item-in">
+				            <span class="tit has-trans">拓展式培训</span>
+                        </span>
+                    </a>
+                    <span class="header-v"></span>
+					<div id="menu-nav-sub" class="menu-sub has-trans">
+						<ul class="nav-sub-list padding-left-180">
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">活动召集</span> </a>
+									class="nav-sub-item-in">拓展训练</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">活动约伴</span> </a>
+									class="nav-sub-item-in">成功案例</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">活动随行</span> </a>
+									class="nav-sub-item-in">户外百科</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">专区</span> </a>
+									class="nav-sub-item-in">公告</span> </a>
 							</li>
 						</ul>
 					</div></li>
-				<li class="nav-item" onmouseover="javascript:qiehuan(3)"><a
-					class="nav_on" href="#" id="mynav3"> <span class="nav-item-in">
-							<span class="tit has-trans">旅行攻略</span> </span> </a> <span class="header-v"></span>
+				<li class="nav-item"><a
+					class="nav_on menu-nav" href="#" id="menu-nav"> <span class="nav-item-in">
+							<span class="tit has-trans">拓展训练</span> </span> </a> <span class="header-v"></span>
 				</li>
-				<li class="nav-item" onmouseover="javascript:qiehuan(4)"><a
-					class="nav_on" href="#" id="mynav4"> <span class="nav-item-in">
-							<span class="tit has-trans">社区</span> </span> </a> <span class="header-v"></span>
-					<div id="qh_con4" class="menu-sub has-trans">
-						<ul class="nav-sub-list padding-left-390" onmouseout="recover(4);">
+				<li class="nav-item"><a
+					class="nav_on menu-nav" href="#" id="menu-nav"> <span class="nav-item-in">
+							<span class="tit has-trans">成功案例</span> </span> </a> <span class="header-v"></span>
+					<div id=" menu-nav-sub" class="menu-sub has-trans">
+						<ul class="nav-sub-list padding-left-390">
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
 									class="nav-sub-item-in">户外新闻</span> </a>
 							</li>
@@ -191,11 +195,11 @@
 							</li>
 						</ul>
 					</div></li>
-				<li class="nav-item" onmouseover="javascript:qiehuan(5)"><a
-					class="nav_on" href="#" id="mynav5"> <span class="nav-item-in">
-							<span class="tit has-trans">家园</span> </span> </a> <span class="header-v"></span>
-					<div id="qh_con5" class="menu-sub has-trans">
-						<ul class="nav-sub-list padding-left-495" onmouseout="recover(5);">
+				<li class="nav-item"><a
+					class="nav_on menu-nav" href="#" id="menu-nav"> <span class="nav-item-in">
+							<span class="tit has-trans">户外百科</span> </span> </a> <span class="header-v"></span>
+					<div id=" menu-nav-sub" class="menu-sub has-trans">
+						<ul class="nav-sub-list padding-left-495">
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
 									class="nav-sub-item-in">会员中心</span> </a>
 							</li>
@@ -213,11 +217,13 @@
 							</li>
 						</ul>
 					</div></li>
-				<li class="nav-item" onmouseover="javascript:qiehuan(6)"><a
-					class="nav_on" href="#" id="mynav6"> <span class="nav-item-in">
-							<span class="tit has-trans">服务</span> </span> </a> <!-- <span class="header-v"></span> -->
-					<div id="qh_con6" class="menu-sub has-trans">
-						<ul class="nav-sub-list padding-left-600" onmouseout="recover(6);">
+			    <!--  onmouseover="javascript:getNextLevel(6)"  onmouseout="recover(6);" -->
+				<li class="nav-item"><a
+					class="nav_on menu-nav" href="#" id="menu-nav"> <span class="nav-item-in">
+							<span class="tit has-trans">公告</span> </span> </a> 
+							<!-- 分隔线, 最后一个元素后面不需要  <span class="header-v"></span> -->
+					<div id="menu-nav-sub" class="menu-sub has-trans">
+						<ul class="nav-sub-list padding-left-600">
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
 									class="nav-sub-item-in">公益活动</span> </a>
 							</li>
@@ -238,24 +244,27 @@
 			</ul>
 		</div>
 	</div>
-	<!-- 图片轮播 -->
+	<!-- 菜单 end -->
+	<!-- 图片轮播 begin -->
 	<div class="show_box">
-	<ul class="pic_list">
-		<li style="display:block"><a href="#" title=""><img alt="1" src="../../static/images/import/3.jpg"/></a></li>
-		<li><a href="#" title=""><img alt="2" src="../../static/images/import/3.jpg"/></a></li>
-		<li><a href="#" title=""><img alt="3" src="../../static/images/import/3.jpg"/></a></li>
-		<li><a href="#" title=""><img alt="4" src="../../static/images/import/3.jpg"/></a></li>
-		<li><a href="#" title=""><img alt="5" src="../../static/images/import/3.jpg"/></a></li>
-	</ul>
-	<div class="title_nav">
-		<a href="#" class="select">户外拓展1</a>
-		<a href="#">户外拓展2</a>
-		<a href="#">户外拓展3</a>
-		<a href="#">户外拓展4</a>
-		<a href="#">户外拓展5</a>
-	</div>
+		<ul class="pic_list">
+			<li style="display:block"><a href="#" title=""><img alt="1" src="../../static/images/import/3.jpg"/></a></li>
+			<li><a href="#" title=""><img alt="2" src="../../static/images/import/3.jpg"/></a></li>
+			<li><a href="#" title=""><img alt="3" src="../../static/images/import/3.jpg"/></a></li>
+			<li><a href="#" title=""><img alt="4" src="../../static/images/import/3.jpg"/></a></li>
+			<li><a href="#" title=""><img alt="5" src="../../static/images/import/3.jpg"/></a></li>
+		</ul>
+		<div class="title_nav">
+			<a href="#" class="select">户外拓展1</a>
+			<a href="#">户外拓展2</a>
+			<a href="#">户外拓展3</a>
+			<a href="#">户外拓展4</a>
+			<a href="#">户外拓展5</a>
+		</div>
     </div>
+    <!-- 图片轮播 end -->
     
+    <!-- 培训 begin -->
     <div style="width:1200px;margin:auto;">
 	    <!-- 面包屑1 -->
 	    <div class="bread">
@@ -269,10 +278,10 @@
 	            <a><span style="font-size: 15px;">企业内训</span></a>
 	            <ul>
 	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">财务管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">高层管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">行政管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">人力管理</span></a></li>
 	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
 	            </ul>
 	        </div>
@@ -322,22 +331,88 @@
 	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
 	            <a><span style="font-size: 15px;">主题课程</span></a>
 	            <ul>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">贝爷野外</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">荒漠求生</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">城市定向</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">亲子课程</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">美女野兽</span></a></li>
 	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
 	            </ul>
 	        </div>
 	    </div>
 	    
 	    <!-- tab2 -->
-	    <div id="" class="step" style="display:none;margin:auto;width:1200px;">
-	        2222
+	    <div id="" class="step" style="display:none;margin:auto;width:1200px;height:250px;">
+	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	            <a><span style="font-size: 15px;">企业内训</span></a>
+	            <ul>
+	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">财务管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">高层管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">行政管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">人力管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
+	            </ul>
+	        </div>
+	        <div class="section">
+				<ul>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_1.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程1</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_2.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程2</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_3.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程3</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_4.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程4</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_5.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程5</h3></a> </div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_6.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程6</h3></a></div>
+					</li>
+			        <li>
+						<div class="photo"><img src="../../static/images/import/peixun_7.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程7</h3></a></div>
+					</li>
+					<li>
+						<div class="photo"><img src="../../static/images/import/peixun_8.jpg" /></div>
+						<div class="rsp"></div>
+						<div class="text"><a href="#"><h3>课程8</h3></a></div>
+				</ul>
+			</div>
+	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	            <a><span style="font-size: 15px;">主题课程</span></a>
+	            <ul>
+	                <li style="float:left;"><a><span style="margin-left:20px;">贝爷野外</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">荒漠求生</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">城市定向</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">亲子课程</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">美女野兽</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
+	            </ul>
+	        </div>
 	    </div>
     </div>
+    <!-- 培训 end -->
     
+    <!-- 拓展 begin -->
     <div style="width:1200px;margin:auto;position:relative;">
 	    <!-- 面包屑2 --> 
 	    <div class="bread">
@@ -345,7 +420,7 @@
 	        <!-- <a href="#@"><span class="bread-tit" >拓展式培训</span></a> -->
 	    </div>
 	    <!-- 展示内容 -->
-	    <div id="" class="step" style="margin:auto;width:1200px;height:380px;">
+	    <div id="" class="step" style="margin:auto;width:1200px;height:360px;">
 	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
 	            <a><span style="font-size: 15px;">拓展项目</span></a>
 	            <ul>
@@ -409,6 +484,250 @@
 	        </div>
 	    </div>
     </div>
+    <!-- 拓展 end -->
+    
+    <!-- 成功案例 begin -->
+    <div style="width:1200px;margin:auto;position:relative;">
+	    <!-- 面包屑 --> 
+	    <div class="bread">
+	        <a href="#@"><span class="bread-tit new" >成功案例</span></a>
+	    </div>
+	    <!-- 展示内容 -->
+	    <div id="success_case_wrap">
+		    <div class="success_case_item">
+		    	<img src="../../static/images/import/success_case_test.jpg" width="157" height="203" />
+		        <div class="cornerCC"> </div>
+		        <dl>
+		        	<dt><h3>测试成功案例1</h3></dt>
+		            <dd>这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!</dd>
+		        </dl>
+		    </div>
+		    <div class="success_case_item">
+		    	<img src="../../static/images/import/success_case_test.jpg" width="157" height="203" />
+		        <div class="cornerCC"> </div>
+		        <dl>
+		        	<dt><h3>测试成功案例2</h3></dt>
+		            <dd>这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!</dd>
+		        </dl>
+		    </div>
+		    <div class="success_case_item">
+		    	<img src="../../static/images/import/success_case_test.jpg" width="157" height="203" />
+		        <div class="cornerCC"> </div>
+		        <dl>
+		        	<dt><h3>测试成功案例3</h3></dt>
+		            <dd>这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!</dd>
+		        </dl>
+		    </div>
+		    <div class="success_case_item">
+		    	<img src="../../static/images/import/success_case_test.jpg" width="157" height="203" />
+		        <div class="cornerCC"> </div>
+		        <dl>
+		        	<dt><h3>测试成功案例4</h3></dt>
+		            <dd>这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!</dd>
+		        </dl>
+		    </div>
+		    <div class="success_case_item">
+		        <img src="../../static/images/import/success_case_test.jpg" width="157" height="203" />
+		        <div class="cornerCC"> </div>
+		        <dl>
+		            <dt><h3>测试成功案例5</h3></dt>
+		            <dd>这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!</dd>
+		        </dl>
+		    </div>
+		    <div class="success_case_item">
+		        <img src="../../static/images/import/success_case_test.jpg" width="157" height="203" />
+		        <div class="cornerCC"> </div>
+		        <dl>
+		            <dt><h3>测试成功案例6</h3></dt>
+		            <dd>这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!</dd>
+		        </dl>
+		    </div>
+		    <div class="success_case_item">
+		        <img src="../../static/images/import/success_case_test.jpg" width="157" height="203" />
+		        <div class="cornerCC"> </div>
+		        <dl>
+		            <dt><h3>测试成功案例7</h3></dt>
+		            <dd>这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!--这是一个非常非常好的成功案例!</dd>
+		        </dl>
+		    </div>
+		</div>
+    </div>
+    <!-- 成功案例 end -->
+    
+    <!-- 户外百科 begin -->
+    <div style="width:1200px;margin:auto;position:relative;">
+	    <!-- 面包屑 --> 
+	    <div class="bread">
+	        <a href="#@"><span class="bread-tit new" >户外百科</span></a>
+	    </div>
+	    <!-- 展示内容 -->
+	    <div class="boxwrap">
+	        <!-- 户外知识 begin -->
+	        <div class="index-knowledge left">
+	            <div class="index-title">
+	                <div class="title left">
+	                    <a href="#@"><span class="title-tit new" >户外知识</span></a>
+	                </div>
+	                <ul>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>户外知识1</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>户外知识2</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>户外知识3</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>户外知识4</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>户外知识5</span>
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	        <!-- 户外知识 end -->
+	        
+	        <!-- 拓展杂谈 begin -->
+	        <div class="index-talk left">
+	            <div class="index-title">
+	                <div class="title left">
+	                    <a href="#@"><span class="title-tit new" >拓展杂谈</span></a>
+	                </div>
+	                <ul>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展杂谈1</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展杂谈2</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展杂谈3</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展杂谈4</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展杂谈5</span>
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	        <!-- 拓展杂谈 end -->
+	        
+	        <!-- 拓展游戏 begin -->
+	        <div class="index-game right">
+	            <div class="index-title">
+	                <div class="title left">
+	                    <a href="#@"><span class="title-tit new" >拓展游戏</span></a>
+	                </div>
+	                <ul>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展小游戏1</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展小游戏2</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展小游戏3</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展小游戏4</span>
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a title="" href="">
+	                            <span>拓展小游戏5</span>
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	        <!-- 拓展游戏 end -->
+	    </div>
+    </div>
+    <!-- 户外百科 end -->
+    
+    <!-- 底部 begin -->
+    <div style="width:1200px;margin:auto;position:relative;">
+	    <!-- 面包屑 --> 
+	    <div class="bread"></div>
+	    <div class="link-list">
+	        <div class="text">
+	            <span>友情链接:</span>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b >|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">原点拓展训练营</a>
+	        </div>
+	    </div>
+	    <!-- 虚线分割线 -->
+	    <div class="footer-dashed-line"></div>
+	    <div class="footer-last">
+	        <div class="text">
+	            <a href="#" target="_blank">关于我们</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">联系我们</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">诚招英才</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">师资团队</a>
+	            <b >|</b>
+	            <a href="#" target="_blank">下载中心</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">服务中心</a>
+	            <b>|</b>
+	            <a href="#" target="_blank">关于原点</a>
+        	</div>
+        	<div class="copyright">
+        	    <span>Copyright ©  origin.com. All Rights Reserved. 原点拓展培训  版权所有<span>
+        	</div>
+	    </div>
+	</div>
+    <!-- 底部 end -->
 </body>
 </html>
 <script type="text/javascript">
@@ -449,16 +768,60 @@
 		defaultPlay : false,
 		returnDefault : true
 	});
+	
+	/* 成功案例  基于jquery1.8.3 */
+	$(function(){
+        $(".success_case_item").hover(
+            function(){
+                var that = this;
+                sucessItemTimer = setTimeout(function(){
+                    $(that).find(".cornerCC").animate({width: 157, height: 203, left: 0, top: 0}, 300, function(){
+                        $(that).find("dl").fadeIn(200);
+                    });
+                }, 100);
+            },
+            function(){
+                var that = this;
+                clearTimeout(sucessItemTimer);
+                $(that).find("dl").fadeOut(200);
+                $(that).find(".cornerCC").stop().animate({width:0, height:0, left:78, top:101}, 300);
+            }
+        );
+        
+        // 给一级菜单添加hover事件
+        $(".menu-nav").hover(
+            function(){
+                // 给当前元素添加class=nav-on
+                $(this).addClass("nav-on");
+                // 让子元素可见
+                var subNavClass = ".menu-sub";
+                var subNav = $(this).siblings(subNavClass);
+                subNav.css("display", "block");
+            },
+            function(){
+                var subNav = $(this).siblings(".menu-sub");
+                // 让子元素不可见
+                subNav.css("display", "none");
+                // 移除class=nav-on
+                $(this).removeClass("nav-on");
+            }
+        );
+    });
 
-	function qiehuan(num) {
+    /** 
+     * 获取二级菜单
+     */
+	function getNextLevel(num) {
 		for ( var i = 0; i <= 6; i++) {
-			var navSub = document.getElementById("qh_con" + i);
+			var navSub = document.getElementById("nav-sub-" + i);
 			if (i == num) {
 				document.getElementById("mynav" + i).className = "nav-on";
 				if (navSub == null || navSub == 'undefined') {
 					continue;
 				} else {
+				    alert("获得匹配: " + num + ", 执行display = block.");
 					navSub.style.display = "block";
+					alert("执行成功!");
 				}
 			} else {
 				document.getElementById("mynav" + i).className = "";
@@ -476,7 +839,7 @@
 	function recover(num) {
 		for ( var i = 0; i <= 6; i++) {
 			if (i == num) {
-				var navSub = document.getElementById("qh_con" + i);
+				var navSub = document.getElementById("nav-sub-" + i);
 				if (navSub == null || navSub == 'undefined') {
 					;
 				} else {
@@ -498,4 +861,5 @@
 			}
 		);
 	}
+	
 </script>
