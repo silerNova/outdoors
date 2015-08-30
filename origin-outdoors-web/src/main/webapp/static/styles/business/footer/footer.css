@@ -1,0 +1,81 @@
+@charset "utf-8";
+.link-list {
+    height: auto;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    border-bottom-style: dashed;
+    border-bottom-color: #fff;
+    border-bottom-width: 1px;
+}
+
+.link-list .text {
+	width: 100%;
+	font-family: "Microsoft YaHei";
+	line-height: 28px;
+	padding: 0px;
+}
+
+.link-list .text span {
+	font-size: 14px;
+	font-weight: bold;
+	font-color: #000000;
+}
+
+.link-list .text a {
+	font-size: 12px;
+}
+
+.link-list .text b {
+	font-width: 400;
+	margin: 0px 10px;
+}
+
+.footer-dashed-line {
+	width:1200px;
+	height:1px;
+	border-bottom: 1px dashed;
+}
+
+.footer-last {
+	height: auto;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    border-bottom-style: dashed;
+    border-bottom-color: #fff;
+    border-bottom-width: 1px;
+}
+
+.footer-last .text {
+	width: 100%;
+	font-family: "Microsoft YaHei";
+	line-height: 28px;
+	padding: 0px;
+}
+
+.footer-last .text span {
+	font-size: 14px;
+	font-weight: bold;
+	font-color: #000000;
+}
+
+.footer-last .text a {
+	font-size: 12px;
+}
+
+.footer-last .text b {
+	font-width: 400;
+	margin: 0px 10px;
+}
+
+.footer-last .copyright {
+	width: 100%;
+	font-family: "Microsoft YaHei";
+	line-height: 28px;
+	padding: 0px;
+}
