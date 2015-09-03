@@ -7,6 +7,6 @@
   <tool>
     <key>dateFormatUtils</key>
     <scope>application</scope>
-    <class>com.jd.o2o.commons.utils.DateFormatUtils</class>
+    <class>com.origin.outdoors.util.DateFormatUtil</class>
   </tool>
 </toolbox>

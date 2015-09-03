@@ -1,4 +1,63 @@
 @charset "utf-8";
+
+.case {
+	width:1200px;
+	margin:auto;
+	position:relative;
+}
+
+/* 面包屑 开始*/
+.case .bread {
+  position: relative;
+  z-index: -1;
+  width: 1200px;
+  height: 31px;
+  line-height: 50px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei", simsun;
+  color: #ff8500;
+  border-bottom: #ff8500 2px solid;
+  background: #fff;
+  margin: auto;
+  zoom: 1;
+}
+
+.case .bread:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: '';
+}
+
+.case .bread a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.case .bread a:hover {
+	cusor: pointer;
+} 
+
+.case .bread a:visited {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.case .bread .bread-tit {
+  float: left;
+  padding: 0 20px;
+  line-height: 30px;
+}
+
+.case .bread .new {
+      border-bottom: #ff8000 1px solid;
+}
+
+/* 面包屑 完毕 */
+
 #success_case_wrap{
 	margin: 10px auto;
 	width: 1200px;

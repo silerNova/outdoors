@@ -145,6 +145,16 @@
 				<li class="nav-item"><a
 					class="nav_on menu-nav" href="" id="menu-nav"> <span class="nav-item-in">
 							<span class="tit has-trans">课程式培训</span> </span> </a> <span class="header-v"></span>
+				    <div id="menu-nav-sub" class="menu-sub has-trans">
+						<ul class="nav-sub-list padding-left-100">
+							<li class="nav-sub-item"><a class="has-trans" href="#"><span
+									class="nav-sub-item-in">企业内训</span> </a>
+							</li>
+							<li class="nav-sub-item"><a class="has-trans" href="#"><span
+									class="nav-sub-item-in">主题课程</span> </a>
+							</li>
+						</ul>
+					</div>
 				</li>
 				<li class="nav-item">
 				    <a class="nav_on menu-nav" href="#" id="menu-nav">
@@ -153,91 +163,72 @@
                         </span>
                     </a>
                     <span class="header-v"></span>
+					</li>
+				<li class="nav-item">
+				    <a class="nav_on menu-nav" href="#" id="menu-nav">
+				        <span class="nav-item-in">
+							<span class="tit has-trans">拓展训练</span>
+					    </span>
+					</a>
+					<span class="header-v"></span>
 					<div id="menu-nav-sub" class="menu-sub has-trans">
-						<ul class="nav-sub-list padding-left-180">
+						<ul class="nav-sub-list padding-left-420">
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">拓展训练</span> </a>
+									class="nav-sub-item-in">拓展项目</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">成功案例</span> </a>
-							</li>
-							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">户外百科</span> </a>
-							</li>
-							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">公告</span> </a>
+									class="nav-sub-item-in">拓展主题</span> </a>
 							</li>
 						</ul>
-					</div></li>
-				<li class="nav-item"><a
-					class="nav_on menu-nav" href="#" id="menu-nav"> <span class="nav-item-in">
-							<span class="tit has-trans">拓展训练</span> </span> </a> <span class="header-v"></span>
+					</div>
 				</li>
 				<li class="nav-item"><a
 					class="nav_on menu-nav" href="#" id="menu-nav"> <span class="nav-item-in">
 							<span class="tit has-trans">成功案例</span> </span> </a> <span class="header-v"></span>
-					<div id=" menu-nav-sub" class="menu-sub has-trans">
-						<ul class="nav-sub-list padding-left-390">
-							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">户外新闻</span> </a>
-							</li>
-							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">驴行随笔</span> </a>
-							</li>
-							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">户外知识</span> </a>
-							</li>
-							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">户外影像</span> </a>
-							</li>
-							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">心在旅途</span> </a>
-							</li>
-						</ul>
-					</div></li>
+					</li>
 				<li class="nav-item"><a
 					class="nav_on menu-nav" href="#" id="menu-nav"> <span class="nav-item-in">
 							<span class="tit has-trans">户外百科</span> </span> </a> <span class="header-v"></span>
 					<div id=" menu-nav-sub" class="menu-sub has-trans">
 						<ul class="nav-sub-list padding-left-495">
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">会员中心</span> </a>
+									class="nav-sub-item-in">户外知识</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">领队申请</span> </a>
+									class="nav-sub-item-in">拓展杂谈</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">各人风采</span> </a>
+									class="nav-sub-item-in">拓展游戏</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">驴行足迹</span> </a>
+									class="nav-sub-item-in">拓展故事</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">相册</span> </a>
+									class="nav-sub-item-in">企业参考</span> </a>
 							</li>
 						</ul>
 					</div></li>
 			    <!--  onmouseover="javascript:getNextLevel(6)"  onmouseout="recover(6);" -->
 				<li class="nav-item"><a
 					class="nav_on menu-nav" href="#" id="menu-nav"> <span class="nav-item-in">
-							<span class="tit has-trans">公告</span> </span> </a> 
+							<span class="tit has-trans">新闻</span> </span> </a> 
 							<!-- 分隔线, 最后一个元素后面不需要  <span class="header-v"></span> -->
 					<div id="menu-nav-sub" class="menu-sub has-trans">
 						<ul class="nav-sub-list padding-left-600">
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">公益活动</span> </a>
+									class="nav-sub-item-in">行业动态</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">活动保险</span> </a>
+									class="nav-sub-item-in">最新新闻</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">投诉建议</span> </a>
+									class="nav-sub-item-in">装备转租</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
 									class="nav-sub-item-in">公告</span> </a>
 							</li>
 							<li class="nav-sub-item"><a class="has-trans" href="#"><span
-									class="nav-sub-item-in">装备转租</span> </a>
+									class="nav-sub-item-in">投诉建议</span> </a>
 							</li>
 						</ul>
 					</div></li>
@@ -265,8 +256,8 @@
     <!-- 图片轮播 end -->
     
     <!-- 培训 begin -->
-    <div style="width:1200px;margin:auto;">
-	    <!-- 面包屑1 -->
+    <div class="train">
+	    <!-- 切换tab面包屑 -->
 	    <div class="bread">
 	        <a href="#@"><span class="bread-tit new" >课程式培训</span></a>
 	        <a href="#@"><span class="bread-tit" >拓展式培训</span></a>
@@ -277,12 +268,12 @@
 	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
 	            <a><span style="font-size: 15px;">企业内训</span></a>
 	            <ul>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">财务管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">高层管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">行政管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">人力管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">营销管理</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">财务管理</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">高层管理</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">行政管理</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">人力管理</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
 	            </ul>
 	        </div>
 	        <div class="section">
@@ -331,26 +322,26 @@
 	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
 	            <a><span style="font-size: 15px;">主题课程</span></a>
 	            <ul>
-	                <li style="float:left;"><a><span style="margin-left:20px;">贝爷野外</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">荒漠求生</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">城市定向</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">亲子课程</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">美女野兽</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">贝爷野外</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">荒漠求生</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">城市定向</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">亲子课程</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">美女野兽</span></a></li>
+	                <li class="left"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
 	            </ul>
 	        </div>
 	    </div>
 	    
 	    <!-- tab2 -->
 	    <div id="" class="step" style="display:none;margin:auto;width:1200px;height:250px;">
-	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
-	            <a><span style="font-size: 15px;">企业内训</span></a>
+	        <div class="train-nav left">
+	            <a><span style="font-size: 15px;">培训主题</span></a>
 	            <ul>
-	                <li style="float:left;"><a><span style="margin-left:20px;">营销管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">财务管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">高层管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">行政管理</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">人力管理</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">贝爷野外</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">荒漠求生</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">城市定向</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">地狱熔炼</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">美女野兽</span></a></li>
 	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
 	            </ul>
 	        </div>
@@ -397,31 +388,30 @@
 						<div class="text"><a href="#"><h3>课程8</h3></a></div>
 				</ul>
 			</div>
-	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	        <!-- <div class="train-nav left">
 	            <a><span style="font-size: 15px;">主题课程</span></a>
 	            <ul>
 	                <li style="float:left;"><a><span style="margin-left:20px;">贝爷野外</span></a></li>
 	                <li style="float:left;"><a><span style="margin-left:20px;">荒漠求生</span></a></li>
 	                <li style="float:left;"><a><span style="margin-left:20px;">城市定向</span></a></li>
-	                <li style="float:left;"><a><span style="margin-left:20px;">亲子课程</span></a></li>
+	                <li style="float:left;"><a><span style="margin-left:20px;">地狱熔炼</span></a></li>
 	                <li style="float:left;"><a><span style="margin-left:20px;">美女野兽</span></a></li>
 	                <li style="float:left;"><a><span style="margin-left:20px;">更多&gt;&gt;</span></a></li>
 	            </ul>
-	        </div>
+	        </div> -->
 	    </div>
     </div>
     <!-- 培训 end -->
     
     <!-- 拓展 begin -->
-    <div style="width:1200px;margin:auto;position:relative;">
-	    <!-- 面包屑2 --> 
+    <div class="outward">
+	    <!-- 面包屑 --> 
 	    <div class="bread">
 	        <a href="#@"><span class="bread-tit new" >拓展训练</span></a>
-	        <!-- <a href="#@"><span class="bread-tit" >拓展式培训</span></a> -->
 	    </div>
 	    <!-- 展示内容 -->
 	    <div id="" class="step" style="margin:auto;width:1200px;height:360px;">
-	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	        <div class="outward-nav left">
 	            <a><span style="font-size: 15px;">拓展项目</span></a>
 	            <ul>
 	                <li style="float:left;"><a><span style="margin-left:20px;">场地拓展项目</span></a></li>
@@ -472,7 +462,7 @@
 				</ul>
 			</div>
 			<!-- 导航展示 -->
-	        <div style="float:left;font-family: 'Microsoft YaHei', simsun;line-height:30px;font-weight:bold;height:125px;width:200px;">
+	        <div class="outward-nav left">
 	            <a><span style="font-size: 15px;">拓展主题</span></a>
 	            <ul>
 	                <li style="float:left;"><a><span style="margin-left:20px;">情景拓展主题</span></a></li>
@@ -487,7 +477,7 @@
     <!-- 拓展 end -->
     
     <!-- 成功案例 begin -->
-    <div style="width:1200px;margin:auto;position:relative;">
+    <div class="case">
 	    <!-- 面包屑 --> 
 	    <div class="bread">
 	        <a href="#@"><span class="bread-tit new" >成功案例</span></a>
@@ -555,7 +545,7 @@
     <!-- 成功案例 end -->
     
     <!-- 户外百科 begin -->
-    <div style="width:1200px;margin:auto;position:relative;">
+    <div class="knowledge">
 	    <!-- 面包屑 --> 
 	    <div class="bread">
 	        <a href="#@"><span class="bread-tit new" >户外百科</span></a>
@@ -677,7 +667,7 @@
     <!-- 户外百科 end -->
     
     <!-- 底部 begin -->
-    <div style="width:1200px;margin:auto;position:relative;">
+    <div class="footer">
 	    <!-- 面包屑 --> 
 	    <div class="bread"></div>
 	    <div class="link-list">
@@ -731,9 +721,23 @@
 </body>
 </html>
 <script type="text/javascript">
-    <!-- roller jquery 1.9.1 -->
-    $(function(){
-        // 加载培训图片
+	/* 基于jquery1.8.3 */
+	$(function(){
+        // 为菜单添加hover事件来获取二级菜单
+        getNextLevelMenu();
+        // 成功案例hover事件方法
+        caseHover();
+        
+		jQuery(".topNav").slide({
+			type : "menu",
+			titCell : "dd",
+			targetCell : "ul",
+			delayTime : 0,
+			defaultPlay : false,
+			returnDefault : true
+		});
+		
+		// 加载培训图片
 		$(".section ul li .rsp").hide();
 		$(".section	 ul li").hover(function(){
 			$(this).find(".rsp").stop().fadeTo(500, 0.5);
@@ -749,29 +753,58 @@
 	    $(".show_box").turnPic();
 	    
 	    //切换tab
-		$('.bread a').click(function(){
+		$('.train .bread a').click(function(){
 			var i = $(this).index();
-			$('.bread a span').removeClass('new').eq(i).addClass('new');
-			$('.step').fadeOut(300).eq(i).fadeIn(500);
+			$('.train .bread a span').removeClass('new').eq(i).addClass('new');
+			$('.train .step').fadeOut(0).eq(i).fadeIn(0);
 		});
 		
 		// 拓展训练图片hover事件方法
 		brandPicTurn();
     });
-    
-    <!-- topNav jquery 1.8.3 -->
-	jQuery(".topNav").slide({
-		type : "menu",
-		titCell : "dd",
-		targetCell : "ul",
-		delayTime : 0,
-		defaultPlay : false,
-		returnDefault : true
-	});
+
+    /** 
+     * 获取二级菜单的方法
+     */
+	function getNextLevelMenu() {
+		// 给一级菜单添加hover事件
+        $(".nav-item").hover(
+            function(){
+                // 给当前元素添加class=nav-on
+                $(this).find(".menu-nav").addClass("nav-on");
+                // 让子元素可见
+                var subNavClass = ".menu-sub";
+                var subNav = $(this).find(subNavClass);
+                subNav.toggle("normal");
+            },
+            function(){
+                var subNavClass = ".menu-sub";
+                var subNav = $(this).find(subNavClass);
+                // 让子元素不可见
+                subNav.toggle("normal");
+                // 移除class=nav-on
+                $(this).find(".menu-nav").removeClass("nav-on");
+            }
+        );
+	}
 	
-	/* 成功案例  基于jquery1.8.3 */
-	$(function(){
-        $(".success_case_item").hover(
+	/* 拓展训练展示方法  */
+	function brandPicTurn(){
+		$(".brand_item").hover(
+			function(){
+				$(this).children(".brand_name").addClass("brand_change");
+			}
+			, function(){
+				$(this).children(".brand_name").removeClass("brand_change");
+			}
+		);
+	}
+	
+	/*
+	 * 成功案例hover事件方法  基于jquery1.8.3
+	 */
+	function caseHover() {
+	    $(".success_case_item").hover(
             function(){
                 var that = this;
                 sucessItemTimer = setTimeout(function(){
@@ -787,79 +820,6 @@
                 $(that).find(".cornerCC").stop().animate({width:0, height:0, left:78, top:101}, 300);
             }
         );
-        
-        // 给一级菜单添加hover事件
-        $(".menu-nav").hover(
-            function(){
-                // 给当前元素添加class=nav-on
-                $(this).addClass("nav-on");
-                // 让子元素可见
-                var subNavClass = ".menu-sub";
-                var subNav = $(this).siblings(subNavClass);
-                subNav.css("display", "block");
-            },
-            function(){
-                var subNav = $(this).siblings(".menu-sub");
-                // 让子元素不可见
-                subNav.css("display", "none");
-                // 移除class=nav-on
-                $(this).removeClass("nav-on");
-            }
-        );
-    });
-
-    /** 
-     * 获取二级菜单
-     */
-	function getNextLevel(num) {
-		for ( var i = 0; i <= 6; i++) {
-			var navSub = document.getElementById("nav-sub-" + i);
-			if (i == num) {
-				document.getElementById("mynav" + i).className = "nav-on";
-				if (navSub == null || navSub == 'undefined') {
-					continue;
-				} else {
-				    alert("获得匹配: " + num + ", 执行display = block.");
-					navSub.style.display = "block";
-					alert("执行成功!");
-				}
-			} else {
-				document.getElementById("mynav" + i).className = "";
-				if (navSub == null || navSub == 'undefined') {
-					continue;
-				} else {
-					if (navSub.style.display == "block") {
-						navSub.style.display = "none";
-					}
-				}
-			}
-		}
-	}
-
-	function recover(num) {
-		for ( var i = 0; i <= 6; i++) {
-			if (i == num) {
-				var navSub = document.getElementById("nav-sub-" + i);
-				if (navSub == null || navSub == 'undefined') {
-					;
-				} else {
-					navSub.style.display = "none";
-				}
-				document.getElementById("mynav" + i).className = "";
-			}
-		}
-	}
-	
-	/* 拓展训练展示方法  */
-	function brandPicTurn(){
-		$(".brand_item").hover(
-			function(){
-				$(this).children(".brand_name").addClass("brand_change");
-			}
-			, function(){
-				$(this).children(".brand_name").removeClass("brand_change");
-			}
-		);
 	}
 	
 </script>
