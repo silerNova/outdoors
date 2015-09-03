@@ -12,6 +12,7 @@
   border-bottom: #ff8500 2px solid;
   background: #fff;
   margin: auto;
+  zoom: 1;
 }
 
 .bread:after
@@ -23,15 +24,11 @@
   content: '';
 }
 
-.bread
-{
-  zoom: 1;
-}
-
 .bread a{
   font-size: 16px;
   color: #333;
-  text-decoration: none; 
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .bread a:visited{

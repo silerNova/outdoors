@@ -9,7 +9,7 @@
   <link href="http://www.origin.com/favicon.ico" rel="shortcut icon">
 
   <script type="text/javascript" src="static/scripts/common/jquery-1.8.3.min.js"></script>
-  <script type="text/javascript" src="static/scripts/common/jquery-1.9.1.min.js"></script>
+  <!-- <script type="text/javascript" src="static/scripts/common/jquery-1.9.1.min.js"></script> -->
   <script type="text/javascript" src="static/scripts/common/jquery.SuperSlide.2.1.js"></script>
   <script type="text/javascript" src="static/scripts/common/script.js"></script>
   <script type="text/javascript" src="static/scripts/business/login/login.js"></script>
@@ -19,7 +19,7 @@
   <link rel="stylesheet" type="text/css" href="static/styles/common/main_navigation.css"></link>
   <link rel="stylesheet" type="text/css" href="static/styles/business/login/login.css"></link>
   <link rel="stylesheet" type="text/css" href="static/styles/business/roller/roller.css"></link>
-  <link rel="stylesheet" type="text/css" href="static/styles/business/bread/bread.css"></link>
+  <!-- <link rel="stylesheet" type="text/css" href="static/styles/business/bread/bread.css"></link> -->
   <link rel="stylesheet" type="text/css" href="static/styles/business/train/train.css"></link>
   <link rel="stylesheet" type="text/css" href="static/styles/business/outward/outward.css"></link>
   <link rel="stylesheet" type="text/css" href="static/styles/business/case/case.css"></link>
